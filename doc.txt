@@ -1,0 +1,21 @@
+
+tinyone full website is created by html and css. it is not responsive website. just preactice html and css.
+
+font-family: 'PTSans-Regular', sans-serif;
+
+font-family: 'PTSans-Bold', sans-serif;
+
+font-family: 'Helvetica-Neue-Bold', sans-serif;
+
+
+color:
+
+yellow: #fcdb00
+
+black title: #010101
+
+light blue-subtitle: #313841
+
+ash para: #555555
+
+light: #898989

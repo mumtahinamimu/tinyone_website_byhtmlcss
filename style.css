@@ -1,0 +1,390 @@
+/*======================================
+Font integrated CSS
+========================================*/
+ont-face{
+	font-family: PTSans-Regular;
+	src: url("fonts/PT_Sans/PTSans-Regular.ttf");
+}
+
+@font-face{
+	font-family: PTSans-Bold;
+	src: url("fonts/PT_Sans/PTSans-Bold.ttf");
+}
+
+@font-face{
+	font-family: Helvetica-Neue-Bold;
+	src: url("fonts/Helvetica-Neue-Bold/Helvetica-Neue-Bold.ttf");
+}
+
+/*======================================
+Common CSS
+========================================*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'PTSans-Regular', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #010101;
+}
+
+.container{
+	margin: 0 auto;
+	width: 70%;
+	max-width: 960px;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+.common_title{
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-family: 'PTSans-Bold', sans-serif;
+	font-size: 32px;
+}
+
+.common_subtitle{
+	margin: 0;
+	font-size: 20px;
+	line-height: 24px;
+	color: #313841;
+}
+
+
+/*======================================
+header area CSS
+========================================*/
+.banner_with_nav{
+	margin-bottom: 60px;
+	background-color: #fcdb00;
+	width: 100%;
+}
+
+header{
+	padding: 52px 0;
+}
+
+.navbar{
+	overflow: hidden;
+}
+/*logo start*/
+.logo{
+	float: left;
+	width: 20%;
+	max-width: 160px;
+	max-height: 48px;
+}
+/*logo end*/
+
+/*menu start*/
+.menu{
+	float: right;
+	width: 70%;
+	padding-top: 10px;
+}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+}
+
+.menu ul li{
+	float: left;
+	display: block;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 75px;
+	text-transform: capitalize;
+	font-family: Helvetica-Neue-Bold;
+	font-size: 22px;
+	color: #010101;
+}
+
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+
+/*menu end*/
+
+/*======================================
+banner area CSS
+========================================*/
+.banner{
+	padding-bottom: 100px;
+}
+.banner_content{
+	overflow: hidden;
+}
+/*banner_inspiration start*/
+.b_inspiration{
+	margin-top: 30px;
+	float: left;
+	width: 48%;
+}
+
+.banner_para{
+	margin-top: 25px;
+	margin-bottom: 42px;
+	color: #555555;
+}
+
+/*banner_icon start*/
+.banner_icon{
+	overflow: hidden;
+}
+
+.banner_icon ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+
+.banner_icon ul li{
+	float: left;
+	display: block;
+}
+
+.banner_icon ul li a{
+	display: inline-block;
+	margin-right:38px ;
+}
+
+
+/*banner_icon end*/
+/*banner_inspiration end*/
+
+.banner_ipad{
+	float: right;
+	width: 40%;
+}
+
+
+/*======================================
+freature area CSS
+========================================*/
+.freature{
+	padding-top: 60px;
+	padding-bottom: 165px;
+}
+
+.freature_content{
+	overflow: hidden;
+}
+/*featue_heading start*/
+.featue_heading{
+	text-align: center;
+}
+/*featue_service start*/
+.featue_service{
+	overflow: hidden;
+}
+/*featue_single_service start*/
+.f_single_service{
+	margin-top: 90px;
+	margin-right: 4.2%;
+	float: left;
+	width: 30.5%;
+}
+
+.f_single_service:nth-child(3n){
+	margin-right: 0;
+}
+
+.f_single_content{
+	overflow: hidden;
+}
+
+/*featue_single_service icon start*/
+.f_s_icon{
+	float: left;
+	width: 12%;
+}
+
+/*featue_single_service text start*/
+.f_s_text{
+	float: right;
+	width: 80%;
+}
+
+.f_s_text h2{
+	margin-top: 0;
+	margin-bottom: 16px;
+	font-size: 22px;
+}
+
+.f_s_text p{
+	margin: 0;
+	color: #898989;
+}
+/*======================================
+footer area CSS
+========================================*/
+footer{
+	padding-top: 97px;
+	padding-bottom: 140px;
+	width: 100%;
+	background-color:  #010101;
+	color: #ffffff;
+}
+
+.footer_content{
+
+}
+/*======================================
+subscribe area CSS
+========================================*/
+.subscribe_area{
+	margin-bottom: 80px;
+}
+
+.subscribe_heading{
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.subscribe_heading h1{
+	color: #fcdb00;
+}
+
+.subscribe_heading p{
+	color: #898989;
+}
+
+.subscribe_form_area{
+	text-align: center;
+}
+
+.subscribe_form{
+
+}
+
+.subscribe_form input{
+	padding: 18px 60px 18px 25px;
+	border: none;
+	border-radius: 5px;
+	width: 580px;
+	font-family: 'PTSans-Regular', sans-serif;
+    font-size: 16px;
+    color: #898989;
+}
+
+.subscribe_form input:focus{
+	outline: none;
+}
+
+
+.subscribe_form button{
+	margin-left: 20px;
+	padding: 18px 36px;
+	width: 126px;
+	border: none;
+	border-radius: 5px;
+	font-family: 'PTSans-Bold', sans-serif;
+	font-size: 16px;
+	color: #010101;
+	background-color: #fcdb00;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.subscribe_form button:hover{
+	color: #fcdb00;
+	background-color: #010101;
+}
+
+/*======================================
+social area CSS
+========================================*/
+.social_area{
+	margin-bottom: 56px;
+}
+
+.social_content ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.social_content ul li{
+	margin-right: 30px;
+	display: inline-block;
+}
+
+.social_content ul li:last-child{
+	margin-right: 0;
+}
+
+.social_content ul li a{
+	display: block;
+}
+
+
+/*======================================
+lowe_footer area CSS
+========================================*/
+.lower_footer_area{
+	width: 100%;
+}
+
+.lower_footer_content{
+	overflow: hidden;
+}
+
+.adress{
+	float: left;
+	width: 20%;
+}
+.adress p{
+	margin: 0;
+}
+.adress_content{
+
+}
+
+.lower_footer_single_wrapper{
+	float: right;
+	width: 70%;
+}
+
+.lower_footer_single_content{
+	overflow: hidden;
+}
+
+.lower_footer_single{
+	float: left;
+	width: 20%;
+	margin-left: 5%;
+}
+
+.lower_footer_single p{
+	margin: 0;
+}
+
+.lower_footer_single ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.lower_footer_single ul li{
+
+}
+
+.lower_footer_single ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	display: inline-block;
+	text-transform: capitalize;
+}
